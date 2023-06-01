@@ -7,16 +7,13 @@ h1{
 }
 #the{
     font-size: 30px;
-    margin-right: 5px;
-    background-color: black;
-    color: white;
+    color: black;
     padding: 5px;
 }
 #siren{
     font-size: 40px;
-    font-weight: 900;
-    background-color: black;
-    color: white;
+    font-weight: 1200;
+    color: black;
     padding: 5px;
 }
 .comps{
