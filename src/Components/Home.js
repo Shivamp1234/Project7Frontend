@@ -2,7 +2,6 @@ import React from 'react'
 import Navbar from './Navbar'
 import "./Components.css"
 import { Link } from 'react-router-dom'
-import { AiOutlineArrowDown } from 'react-icons/ai'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 
@@ -318,7 +317,6 @@ const Home = () => {
           <div className='home-advertisement'>Advertisement</div>
         </div>
       </div>
-      <div className='load-more'><AiOutlineArrowDown />LOAD MORE</div>
     </>
   )
 }

@@ -162,9 +162,10 @@ hr{
     background-color: #F08080;
 }
 .load-more{
+    font-size: 1.2rem;
+    cursor: pointer;
     text-align: left;
     margin-left: 140px;
-    font-size: larger;
     margin-bottom: 50px;
 }
 .top-post1 img,.top-post2 img,.top-post3 img,.top-post4 img,.top-post5 img{
@@ -189,13 +190,13 @@ hr{
 }
 .advertisement{
     width: 350px;
-    height: 2200px;
+    height: 650px;
     border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 12rem;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 .home-advertisement{
     width: 350px;
