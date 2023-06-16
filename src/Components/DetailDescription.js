@@ -16,7 +16,7 @@ import axios from 'axios'
 const DetailDescription = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
-    axios.get("https://backend-api-hvjn.onrender.com/api/category/home")
+    axios.get("https://blog-app-backend-ptg0.onrender.com/api/category/home")
       .then((response) => setData(response.data))
       .catch((error) => console.log("Error", error))
   }, [])

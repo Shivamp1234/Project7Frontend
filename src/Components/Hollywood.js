@@ -12,7 +12,7 @@ const Hollywood = () => {
     setMore(!more);
   }
   useEffect(() => {
-    axios.get("https://backend-api-hvjn.onrender.com/api/category/hollywood")
+    axios.get("https://blog-app-backend-ptg0.onrender.com/api/category/hollywood")
       .then((response) => setData(response.data))
       .catch((error) => console.log("Error", error))
   }, [])
